@@ -1,0 +1,31 @@
+### GET
+GET http://localhost:5075/games
+
+### POST
+POST http://localhost:5075/games
+Content-Type: application/json
+
+{
+    "name": "The Legend of Zelda: Breath of the Wild",
+    "genreId": 2,
+    "price": 59.99,
+    "releaseDate": "2017-03-03"
+}
+
+### PUT
+PUT http://localhost:5075/games/1
+Content-Type: application/json
+
+{
+    "name": "The Bananass",
+    "genreId": 2,
+    "price": 49.99,
+    "releaseDate": "2017-03-03"
+}
+
+### DELETE
+DELETE http://localhost:5075/games/3
+
+### GET Genres
+GET http://localhost:5075/genres
+
